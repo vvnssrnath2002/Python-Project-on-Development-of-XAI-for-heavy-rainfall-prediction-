@@ -1,0 +1,51 @@
+Notebook
+---------
+1. Importing the packages
+2. Exploring the dataset 
+        - Weather Data Source: OpenWeather API / IMD Data
+3. Data Processing
+	- Removing Duplicate Data
+	- Drop Cleaning  
+	- Normalizer 
+4. Data Visualization
+5. Label Encoder 
+        - Converting the Str to Int
+6. Feature Selection 
+7. Splitting the dataset in train and validation 
+
+8. Building the model for all data LIME 
+       - Logistic Regression
+       - Decision Tree
+       - Random Forest
+       - Neural Network
+       - LightGBM
+       - CatBoost
+       - XGBoost
+	 - Extension
+	
+10. Training and Building the model
+11. Comparing the models with accuracy, precision, recall, f1 score, 
+12. Comparison graphs are generated with scores of all models.
+
+NOTE : XAI is used to generate the graph using LIME AND SHAP, which we done using Ensemble models
+
+FrontEnd
+--------
+
+13. Frontend is developed with help of Flask Framework, along with Registration and Login setup with support of Sqlite DB
+14. For the frontend we used the data for prediction
+15. User gives input as Feature Values 
+16. The given input is preprocessed for prediction
+17. Trained model is used for prediction
+18. Final outcome is displayed through frontend
+
+
+Extension
+----------
+
+In the base paper the author mentioned to use Weather dataset for analysis and predict the rainfall, using ML and DL models, 
+As an extension we applied an ensemble method  combining the predictions of multiple individual models to produce a more robust and accurate final prediction. 
+However, we can further enhance the performance by ensemble techniques such as ensemble of Boosted Decision Tree and Bagging RF for analysis the data,
+As an extension we can build the front end using the flask framework for user testing and with user authentication.
+
+
